@@ -11,6 +11,8 @@ LOCAL_PACKAGE_NAME := SamsungServiceMode
 LOCAL_JAVA_LIBRARIES := telephony-common
 LOCAL_CERTIFICATE := platform
 
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_APPS)
+
 include $(BUILD_PACKAGE)
 
 # Build the test package
